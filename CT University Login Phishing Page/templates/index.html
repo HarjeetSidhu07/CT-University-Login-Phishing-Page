@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<html class="loading light"
+  lang="en" data-textdirection="ltr">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimal-ui">
+  <meta name="csrf-token" content="4um7wv57Xlt6PYWrM2NJyPYTH8zZxCzfTJ826hTg">
+  <meta name="description"
+    content="CT University - Admin">
+  <meta name="keywords"
+    content="config.app - Admin">
+  <meta name="author" content="config.app">
+  <title>Login - CT University</title>
+  <link rel="apple-touch-icon" href="https://www.ctuniversity.in/images/ico/favicon-32x32.png">
+  <link rel="shortcut icon" type="image/x-icon" href="https://www.ctuniversity.in/images/logo/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600"
+    rel="stylesheet">
+
+  
+  <!-- BEGIN: Vendor CSS-->
+
+  <link rel="stylesheet" href="https://www.ctuniversity.in/vendors/css/vendors.min.css" />
+
+
+<!-- END: Vendor CSS-->
+
+<!-- BEGIN: Theme CSS-->
+<link rel="stylesheet" href="https://www.ctuniversity.in/css/core.css" />
+<link rel="stylesheet" href="https://www.ctuniversity.in/css/base/themes/dark-layout.css" />
+<link rel="stylesheet" href="https://www.ctuniversity.in/css/base/themes/bordered-layout.css" />
+<link rel="stylesheet" href="https://www.ctuniversity.in/css/base/themes/semi-dark-layout.css" />
+<link rel="stylesheet" href="https://www.ctuniversity.in/css/base/core/menu/menu-types/vertical-menu.css" />
+<style>
+#loader {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.75) url("https://www.ctuniversity.in/images/source.gif") no-repeat center center;
+  background-size: 150px 150px;
+  z-index: 10000;
+}
+</style>
+
+  
+  <link rel="stylesheet" href="https://www.ctuniversity.in/css/base/pages/authentication.css">
+
+<!-- laravel style -->
+<link rel="stylesheet" href="https://www.ctuniversity.in/css/overrides.css" />
+
+<!-- BEGIN: Custom CSS-->
+
+  <link rel="stylesheet" href="https://www.ctuniversity.in/css/style.css" />
+
+
+<style >[wire\:loading], [wire\:loading\.delay], [wire\:loading\.inline-block], [wire\:loading\.inline], [wire\:loading\.block], [wire\:loading\.flex], [wire\:loading\.table], [wire\:loading\.grid], [wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short], [wire\:loading\.delay\.long], [wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest] {display:none;}[wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}input:-webkit-autofill, select:-webkit-autofill, textarea:-webkit-autofill {animation-duration: 50000s;animation-name: livewireautofill;}@keyframes livewireautofill { from {} }</style>
+
+  
+  <!-- BEGIN: Vendor CSS-->
+
+  <link rel="stylesheet" href="https://www.ctuniversity.in/vendors/css/vendors.min.css" />
+
+
+<!-- END: Vendor CSS-->
+
+<!-- BEGIN: Theme CSS-->
+<link rel="stylesheet" href="https://www.ctuniversity.in/css/core.css" />
+<link rel="stylesheet" href="https://www.ctuniversity.in/css/base/themes/dark-layout.css" />
+<link rel="stylesheet" href="https://www.ctuniversity.in/css/base/themes/bordered-layout.css" />
+<link rel="stylesheet" href="https://www.ctuniversity.in/css/base/themes/semi-dark-layout.css" />
+<link rel="stylesheet" href="https://www.ctuniversity.in/css/base/core/menu/menu-types/vertical-menu.css" />
+<style>
+#loader {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.75) url("https://www.ctuniversity.in/images/source.gif") no-repeat center center;
+  background-size: 150px 150px;
+  z-index: 10000;
+}
+</style>
+
+  
+  <link rel="stylesheet" href="https://www.ctuniversity.in/css/base/pages/authentication.css">
+
+<!-- laravel style -->
+<link rel="stylesheet" href="https://www.ctuniversity.in/css/overrides.css" />
+
+<!-- BEGIN: Custom CSS-->
+
+  <link rel="stylesheet" href="https://www.ctuniversity.in/css/style.css" />
+
+
+<style >[wire\:loading], [wire\:loading\.delay], [wire\:loading\.inline-block], [wire\:loading\.inline], [wire\:loading\.block], [wire\:loading\.flex], [wire\:loading\.table], [wire\:loading\.grid], [wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short], [wire\:loading\.delay\.long], [wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest] {display:none;}[wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}input:-webkit-autofill, select:-webkit-autofill, textarea:-webkit-autofill {animation-duration: 50000s;animation-name: livewireautofill;}@keyframes livewireautofill { from {} }</style>
+</head>
+
+
+
+<body
+  class="vertical-layout vertical-menu-modern  blank-page"
+  data-menu="vertical-menu-modern" data-col="blank-page" data-framework="laravel"
+  data-asset-path="https://www.ctuniversity.in/">
+  	<!-- Google Tag Manager (noscript) -->
+     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TBPGMX8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+       <!-- End Google Tag Manager (noscript) -->
+
+
+  <!-- BEGIN: Content-->
+  <div class="app-content content ">
+    <div class="content-overlay"></div>
+    <div class="header-navbar-shadow"></div>
+
+    <div class="content-wrapper">
+      <div class="content-body">
+
+        
+          <div class="auth-wrapper auth-basic px-2">
+    <div class="auth-inner my-2">
+      <!-- Login basic -->
+      <div class="card mb-0">
+        <div class="card-body">
+          <a href="#" class="brand-logo">
+         
+            <img src="https://www.ctuniversity.in/images/logo/ct.png">
+
+            <h2 class="brand-text text-primary ms-1">CT University</h2>
+          </a>
+
+          <h4 class="card-title mb-1">CT University! 👋</h4>
+          <p class="card-text mb-2">Please sign-in to your account</p>
+
+          
+          <form class="auth-login-form mt-2" method="POST" action="/login">
+            <input type="hidden" name="_token" value="4um7wv57Xlt6PYWrM2NJyPYTH8zZxCzfTJ826hTg">            <div class="mb-1">
+              <label for="login-email" class="form-label">Email</label>
+              <input type="text" class="form-control " id="login-email" name="email"
+                placeholder="john@example.com" aria-describedby="login-email" tabindex="1" autofocus
+                value="" />
+                          </div>
+
+            <div class="mb-1">
+              <div class="d-flex justify-content-between">
+                <label class="form-label" for="login-password">Password</label>
+                                  <a href="https://www.ctuniversity.in/forgot-password">
+                    <small>Forgot Password?</small>
+                  </a>
+                              </div>
+              <div class="input-group input-group-merge form-password-toggle">
+                <input type="password" class="form-control form-control-merge" id="login-password" name="password"
+                  tabindex="2" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
+                  aria-describedby="login-password" />
+                <span class="input-group-text cursor-pointer"><i data-feather="eye"></i></span>
+              </div>
+            </div>
+            <div class="mb-1">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="remember" name="remember" tabindex="3"
+                   />
+                <label class="form-check-label" for="remember"> Remember Me </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary w-100" tabindex="4">Sign in</button>
+          </form>
+
+         <!--  <p class="text-center mt-2">
+            <span>New on our platform?</span>
+                          <a href="https://www.ctuniversity.in/register">
+                <span>Create an account</span>
+              </a>
+                      </p> -->
+
+
+   
+        </div>
+      </div>
+      <!-- /Login basic -->
+    </div>
+  </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- End: Content-->
+
+  
+  <!-- BEGIN: Vendor JS-->
+<script src="https://www.ctuniversity.in/vendors/js/vendors.min.js"></script>
+<!-- BEGIN Vendor JS-->
+<!-- BEGIN: Page Vendor JS-->
+<script src="https://www.ctuniversity.in/vendors/js/ui/jquery.sticky.js"></script>
+<!-- END: Page Vendor JS-->
+<!-- BEGIN: Theme JS-->
+<script src="https://www.ctuniversity.in/js/core/app-menu.js"></script>
+<script src="https://www.ctuniversity.in/js/core/app.js"></script>
+
+<!-- custome scripts file for user -->
+<script src="https://www.ctuniversity.in/js/core/scripts.js"></script>
+
+<script src="https://www.ctuniversity.in/js/scripts/customizer.js"></script>
+
+<!-- END: Theme JS-->
+<!-- BEGIN: Page JS-->
+<!-- END: Page JS-->
+
+<script src="https://ctuniversity.in//livewire/livewire.js?id=de3fca26689cb5a39af4" data-turbo-eval="false" data-turbolinks-eval="false" ></script><script data-turbo-eval="false" data-turbolinks-eval="false" >window.livewire = new Livewire();window.Livewire = window.livewire;window.livewire_app_url = 'https://ctuniversity.in/';window.livewire_token = '4um7wv57Xlt6PYWrM2NJyPYTH8zZxCzfTJ826hTg';window.deferLoadingAlpine = function (callback) {window.addEventListener('livewire:load', function () {callback();});};let started = false;window.addEventListener('alpine:initializing', function () {if (! started) {window.livewire.start();started = true;}});document.addEventListener("DOMContentLoaded", function () {if (! started) {window.livewire.start();started = true;}});</script>
+<script defer src="https://www.ctuniversity.in/vendors/js/alpinejs/alpine.js"></script>
+
+  <script type="text/javascript">
+    $(window).on('load', function() {
+      if (feather) {
+        feather.replace({
+          width: 14,
+          height: 14
+        });
+      }
+    })
+
+   
+  </script>
+
+</body>
+
+</html>
